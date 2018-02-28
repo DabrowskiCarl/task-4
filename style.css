@@ -1,12 +1,12 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
 body div {
-  border-radius: 16px;
+  border-radius: 18px;
   /*first conflict*/ }
 
 body .main .container h1, p {
   text-align: center;
   font-family: "Open Sans", sans-serif;
-  margin: 16px auto;
+  margin: 18px auto;
   /*second conflict*/ }
 
 .title {

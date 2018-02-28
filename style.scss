@@ -7,13 +7,13 @@ $chorus-color: #D5D8DC;
 $verse-color: #FFFCF6;
 
 body div {
-    border-radius: 16px; /*first conflict*/
+    border-radius: 18px; /*first conflict*/
 }
 
 body .main .container h1, p {
     text-align: center;
     font-family: $fonts;
-    margin: 16px auto; /*second conflict*/
+    margin: 18px auto; /*second conflict*/
 }
 .title {
     background-color: $second-color;
