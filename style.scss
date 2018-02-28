@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+$fonts: 'Open Sans', sans-serif;
+$main-color: #e1e8e4;
+$second-color: #cbdbd9;
+$chorus-color: #D5D8DC;
+$verse-color: #FFFCF6;
+
+body div {
+    border-radius: 15px;
+}
+
+body .main .container h1, p {
+    text-align: center;
+    font-family: $fonts;
+    margin: 15px auto;
+}
+.title {
+    background-color: $second-color;
+}
+
+.chorus {
+    background-color: $chorus-color;
+}
+
+.verse {
+    background-color: $verse-color;
+}
