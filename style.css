@@ -10,7 +10,8 @@ body .main .container h1, p {
   /*second conflict*/ }
 
 .title {
-  background-color: #cbdbd9; }
+  background-color: #cbdbd9;
+  border-bottom-left-radius: 10px; }
 
 .chorus {
   background-color: #D5D8DC; }
