@@ -5,24 +5,25 @@ $main-color: #e1e8e4;
 $second-color: #cbdbd9;
 $chorus-color: #D5D8DC;
 $verse-color: #FFFCF6;
+$red-color: #FF0000;
 
 body div {
-    border-radius: 18px; /*first conflict*/
+    border-radius: 18px;
 }
 
 body .main .container h1, p {
     text-align: center;
     font-family: $fonts;
-    margin: 18px auto; /*second conflict*/
+    margin: 18px auto; 
 }
 .title {
-    background-color: $second-color;
+    background-color: $verse-color;
     border-bottom-left-radius: 10px;
 
 }
 
 .chorus {
-    background-color: $chorus-color;
+    background-color: $red-color;
 }
 
 .verse {

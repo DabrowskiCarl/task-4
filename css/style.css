@@ -1,12 +1,30 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
-body div { border-radius: 18px; /*first conflict*/ }
+body div {
+  border-radius: 18px;
+}
 
-body .main .container h1, p { text-align: center; font-family: "Open Sans", sans-serif; margin: 18px auto; /*second conflict*/ }
+body .main .container h1, p {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  margin: 18px auto;
+}
 
-.title { background-color: #cbdbd9; border-bottom-left-radius: 10px; }
+.title {
+  background-color: #FFFCF6;
+  border-bottom-left-radius: 10px;
+}
 
-.chorus { background-color: #D5D8DC; }
+.chorus {
+  background-color: #FF0000;
+}
 
-.verse { background-color: #FFFCF6; }
+.verse {
+  background-color: #FFFCF6;
+}
 
-.test { display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; }
+.test {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/*# sourceMappingURL=style.css.map */
